@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mail"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="@string/menu_option_email" />
+
+    <item android:id="@+id/favoritos"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/menu_option_favorite" />
+
+    <item android:id="@+id/upload"
+        android:icon="@drawable/ic_baseline_cloud_upload_24"
+        android:title="@string/menu_option_upload"
+        app:showAsAction="ifRoom" />
+</menu>

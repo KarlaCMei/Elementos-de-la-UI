@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Elementos UI</string>
+    <string name="custom_text">Mi nueva cadenita</string>
+
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+        <item>Sap</item>
+        <item>Python</item>
+        <item>Ajax</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>Rails</item>
+        <item>.Net</item>
+        <item>Perl</item>
+    </string-array>
+
+    <string name="menu_option_email">Email</string>
+    <string name="menu_option_favorite">Favorite</string>
+    <string name="menu_option_upload">Upload</string>
+    <string name="menu_option_edit">Edit</string>
+    <string name="menu_option_delete">Delete</string>
+
+</resources>
