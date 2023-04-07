@@ -164,12 +164,14 @@
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold"
+                tools:visibility="gone"
                 android:gravity="center"
                 android:background="@color/purple_500" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                tools:visibility="gone"
                 android:src="@drawable/ic_save" />
 
             <TextView
@@ -183,12 +185,14 @@
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:gravity="center"
+                tools:visibility="gone"
                 android:background="@color/purple_500" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_save"
+                tools:visibility="gone"
                 android:backgroundTint="@android:color/holo_red_light" />
 
             <TextView
@@ -200,6 +204,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:textColor="@color/white"
                 android:textSize="25sp"
+                tools:visibility="gone"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:background="@color/purple_500" />
@@ -208,6 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_save"
+                tools:visibility="gone"
                 app:tint="@android:color/holo_orange_dark" />
 
             <TextView
@@ -220,12 +226,14 @@
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold"
+                tools:visibility="gone"
                 android:gravity="center"
                 android:background="@color/purple_500" />
 
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="60sp"
+                tools:visibility="gone"
                 android:src="@drawable/ic_save" />
 
             <TextView
@@ -237,6 +245,8 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:textColor="@color/white"
                 android:textSize="25sp"
+                tools:visibility="gone"
+
                 android:textStyle="bold"
                 android:gravity="center"
                 android:background="@color/purple_500" />
@@ -247,11 +257,94 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:textSize="20dp"
+                tools:visibility="gone"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 android:foreground="?selectableItemBackground"
                 android:text="este es un textview como boton" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boton normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
+                tools:visibility="gone"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_500" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click"
+                tools:visibility="gone"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Texto como boton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_500" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boton con margen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_500" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boton sin elevacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_500" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                />
 
 
         </LinearLayout>
